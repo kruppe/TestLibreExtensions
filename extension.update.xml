@@ -3,7 +3,7 @@
   <!-- Unique extension identifier matching description.xml -->
   <identifier value="de.microtool.writer.bookmarkcreator" />
   <!-- Version number of the new update -->
-  <version value="1.0.78" />
+  <version value="1.0.81" />
   <!-- Display Name shown in the update list -->
   <display-name>
     <name lang="en">Bookmark Creator</name>
@@ -14,6 +14,11 @@
     <name lang="en" xlink:href="https://www.microtool.de">microTOOL GmbH</name>
     <name lang="de" xlink:href="https://www.microtool.de">microTOOL GmbH</name>
   </publisher>
+  <!-- Extension description shown in the details box -->
+  <extension-description>
+    <src lang="en" xlink:href="https://raw.githubusercontent.com/kruppe/TestLibreExtensions/main/description/pkg-description_en.txt" />
+    <src lang="de" xlink:href="https://raw.githubusercontent.com/kruppe/TestLibreExtensions/main/description/pkg-description_de.txt" />
+  </extension-description>
   <!-- Release notes / Changelog:
          LibreOffice displays this in the update dialog when the user clicks on the extension.
          The link can point directly to a plain text file (.txt) or an HTML release page. -->
